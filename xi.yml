@@ -1,0 +1,15 @@
+name: PROJECT_ONE(weather-cli)
+version: 1.0.0
+description: Simple CLI weather app built with Python
+author: Jeffry Lopez
+python: 3.12
+dependencies:
+  - requests
+  - colorama
+  - pytest
+scripts:
+  run: python src/main.py
+  test: pytest -v
+repository:
+  type: git
+  url: https://github.com/JeffullDev/project_one.git
